@@ -7,3 +7,7 @@ The project is led by {{ lead.name }}.
 [See our full team](about#team)
 
 Have any questions about what we do? [We'd love to hear from you!](mailto:{{ site.email }})
+
+{% for post in site.blogposts %}
+- {{ post.date | date_to_string }}: [{{ post.title }}]({{ post.url | relative_url }})
+{% endfor %}
