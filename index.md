@@ -1,16 +1,16 @@
- ---
- lesson-example: "https://carpentries.github.io/lesson-example/"
- ---
+---
+lesson-example: "https://carpentries.github.io/lesson-example/"
+---
              
- {% include navigation.html %}
+{% include navigation.html %}
              
- # Building Websites in GitHub
+# Building Websites in GitHub
              
- ## Description
- {{ site.description }}
+## Description
+{{ site.description }}
              
- More details about the project are available from the [About page](about).
+More details about the project are available from the [About page](about).
              
- See some [examples of our work]({{ page.lesson-example }}).
+See some [examples of our work]({{ page.lesson-example }}).
              
- Have any questions about what we do? [We'd love to hear from you!](mailto:{{ site.email }})
+Have any questions about what we do? [We'd love to hear from you!](mailto:{{ site.email }})
