@@ -1,5 +1,3 @@
-{% include navigation.html %}   
-
 # About
 
 ## Project
